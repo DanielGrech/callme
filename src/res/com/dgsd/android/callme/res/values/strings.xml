@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<resources>
+  <string name='app_name'>Call Me</string>
+  
+  <string name='process_text_action_call'>Call</string>
+  <string name='process_text_action_sms'>Sms</string>
+
+  <string name='error_message_call'>Error dialing number</string>
+  <string name='error_message_sms'>Error sending sms to number</string>
+
+</resources>

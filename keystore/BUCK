@@ -1,0 +1,8 @@
+
+for build_type in BUILD_TYPES:
+  keystore(
+    name = build_type,
+    store = build_type + '.keystore',
+    properties = build_type + '.keystore.properties',
+    visibility = ['PUBLIC']
+  )

@@ -1,0 +1,13 @@
+android_resource(
+  name = 'res',
+  package = APP_PACKAGE,
+  res = 'res',
+  visibility = [
+    '//:main-lib'
+  ]
+)
+
+project_config(
+  src_target = ':res',
+  src_roots = None
+)

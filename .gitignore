@@ -1,0 +1,8 @@
+*.iml
+.idea/*
+buck-cache
+buck-out
+.buckd
+*.DS_Store
+keystore/release.keystore
+keystore/release.keystore.properties

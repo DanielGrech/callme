@@ -1,0 +1,18 @@
+[alias]
+	debug = //:callme_debug
+	release = //:callme_release
+	unittest = //:unit-tests
+
+[android]
+	target = android-23
+
+[java]
+    src_roots = /src/java/
+    source_level = 7
+    target_level = 7
+
+[project]
+  ide = intellij
+
+[buildfile]
+  includes = //buck_scripts/common.py
